@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figcaption</title>
+    <link rel="icon" href="logo.jpg" />
+    <!-- Bootstrap -->
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- figure :-
+        figure-----main class
+        figure-img-----image
+        figcaption--- below image content
+            -->
+
+    <div class="d-flex justify-content-around pt-5">
+      <figure class="figure">
+        <img src="logo.jpg" alt="" class="figure-img rounded-5" />
+        <figcaption
+          class="text-end fw-bolder border border-success border-2 border-opacity-100"
+        >
+          figcaption at end
+        </figcaption>
+      </figure>
+      <br /><br />
+      <figure class="figure">
+        <img src="logo.jpg" alt="" class="figure-img rounded-3" />
+        <figcaption
+          class="text-start fw-bolder border border-success border-2 border-opacity-100"
+        >
+          figcaption at start
+        </figcaption>
+      </figure>
+      <br /><br />
+      <figure class="figure">
+        <img src="logo.jpg" alt="" class="figure-img rounded-1" />
+        <figcaption
+          class="text-center fw-bolder border border-success border-2 border-opacity-100"
+        >
+          figcaption at center
+        </figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
